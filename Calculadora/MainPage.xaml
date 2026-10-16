@@ -37,113 +37,132 @@
                     Clicked="OnButtonClicked"
                     BackgroundColor="#555555"
                     TextColor="White"
-                    FontSize="22" />
+                    FontSize="22" 
+                    CornerRadius="100" />
             
             <Button Grid.Row="0" Grid.Column="1"
                     Text="DEL"
                     Clicked="OnButtonClicked"
                     BackgroundColor="#555555"
                     TextColor="White"
-                    FontSize="20" />
+                    FontSize="20"
+                    CornerRadius="100"/>
             
             <Button Grid.Row="0" Grid.Column="2"
                     Text="%"
                     Clicked="OnButtonClicked"
                     BackgroundColor="#555555"
                     TextColor="White"
-                    FontSize="24" />
+                    FontSize="24" 
+                    CornerRadius="100"/>
             
             <Button Grid.Row="0" Grid.Column="3"
                     Text="÷"
                     Clicked="OnButtonClicked"
                     BackgroundColor="#FF9500"
                     TextColor="White"
-                    FontSize="28" />
+                    FontSize="28"
+                    CornerRadius="100"/>
             
             <Button Grid.Row="1" Grid.Column="0"
                     Text="7"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}"
+                    CornerRadius="100"/>
             
             <Button Grid.Row="1" Grid.Column="1"
                     Text="8"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}"
+                    CornerRadius="100"/>
             
             <Button Grid.Row="1" Grid.Column="2"
                     Text="9"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}" 
+                    CornerRadius="100"/>
             
             <Button Grid.Row="1" Grid.Column="3"
                     Text="×"
                     Clicked="OnButtonClicked"
                     BackgroundColor="#FF9500"
                     TextColor="White"
-                    FontSize="28" />
+                    FontSize="28" 
+                    CornerRadius="100"/>
             
             <Button Grid.Row="2" Grid.Column="0"
                     Text="4"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}" 
+                    CornerRadius="100"/>
             
             <Button Grid.Row="2" Grid.Column="1"
                     Text="5"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}" 
+                    CornerRadius="100"/>
             
             <Button Grid.Row="2" Grid.Column="2"
                     Text="6"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}" 
+                    CornerRadius="100"/>
             
             <Button Grid.Row="2" Grid.Column="3"
                     Text="-"
                     Clicked="OnButtonClicked"
                     BackgroundColor="#FF9500"
                     TextColor="White"
-                    FontSize="28" />
+                    FontSize="28"
+                    CornerRadius="100" />
             
             <Button Grid.Row="3" Grid.Column="0"
                     Text="1"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}" 
+                    CornerRadius="100" />
             
             <Button Grid.Row="3" Grid.Column="1"
                     Text="2"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}" 
+                    CornerRadius="100" />
             
             <Button Grid.Row="3" Grid.Column="2"
                     Text="3"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}" 
+                    CornerRadius="100" />
 
             <Button Grid.Row="3" Grid.Column="3"
                     Text="+"
                     Clicked="OnButtonClicked"
                     BackgroundColor="#FF9500"
                     TextColor="White"
-                    FontSize="28" />
+                    FontSize="28"
+                    CornerRadius="100"/>
             
             <Button Grid.Row="4" Grid.Column="0"
                     Grid.ColumnSpan="2"
                     Text="0"
                     Clicked="OnButtonClicked"
-                    Style="{StaticResource Numero}" />
+                    Style="{StaticResource Numero}"
+                    CornerRadius="100"/>
             
             <Button Grid.Row="4" Grid.Column="2"
                     Text="."
                     Clicked="OnButtonClicked"
                     Style="{StaticResource Numero}"
-                    FontSize="28" />
+                    FontSize="28"
+                    CornerRadius="100"/>
             
             <Button Grid.Row="4" Grid.Column="3"
                     Text="="
                     Clicked="OnButtonClicked"
                     BackgroundColor="#FF9500"
                     TextColor="White"
-                    FontSize="28" />
+                    FontSize="28"
+                    CornerRadius="100"/>
         </Grid>
     </Grid>
     
